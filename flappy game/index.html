@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body{
+            background-color: #AAE6F2;
+            overflow-x: hidden;
+        }
+        .clouds{
+            position: relative;
+            top: -300px;
+            z-index: -1;
+        }
+        .txt{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -1450px;
+            right: 800px;
+        }
+        .restart{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -1370px;
+            right: 800px;
+        }
+        img{
+            -khtml-user-select: none;
+            -o-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body class="body">
+    
+
+    <div class="img-container">
+        <img style="display: none;" class="hidden img" src="img/player.png">
+        <img style="display: none;" class="hidden img2" src="img/column.png">
+        <img style="display: none;" class="hidden img3" src="img/column2.png">
+        <img style="display: none;" class="hidden img4" src="img/background.png">
+    </div>
+
+    <canvas class="canvas" style="display: block; margin: 0px auto;"></canvas>
+    <div class="clouds">
+        <img src="img/coluds.png">
+    </div>
+    <div class="txt">
+        <img src="img/txt.png">
+    </div>
+    <div class="restart">
+        <img src="img/restart.png">
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

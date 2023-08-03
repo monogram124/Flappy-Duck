@@ -1,0 +1,14 @@
+{
+  "name": "flappy-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scr.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^25.3.2"
+  }
+}

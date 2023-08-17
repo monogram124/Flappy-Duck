@@ -3,4 +3,4 @@ Flappy Duck game is the same as Flappy bird but with some changes in its texture
 
 So the game is not ready yet and i am going to upload some new featrues, like bosses and so on
 
-// now game can be opened as a dekstop application
+// now game can be opened as a dekstop application using electron.js

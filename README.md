@@ -5,5 +5,3 @@ So the game is not ready yet and i am going to upload some new featrues, like bo
 
 Here are some screenshots
 ![frame](https://github.com/monogram124/Flappy-Duck/assets/120413889/45d4ae82-1cf7-486a-a83e-237e0e6bf50c)
-
-// now game can be opened as a dekstop application using electron.js

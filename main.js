@@ -326,7 +326,7 @@ function animate(){
         };
     };  
     // boss
-    if(score >= 0){    
+    if(score >= 25){    
         if(flower.x <= 660){
 
             flower.velocity = 0;

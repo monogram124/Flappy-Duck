@@ -1,7 +1,6 @@
 # Flappy-Duck
-Flappy Duck game is analogue of Flappy bird with my own vision
+Flappy Duck is my pet project, analogue of Flappy Bird
 
-So the game is not ready yet and i am going to upload some new featrues, like bosses and so on
+I did this project to experience working with JS canvas
 
-Here are some screenshots
 ![frame](https://github.com/monogram124/Flappy-Duck/assets/120413889/45d4ae82-1cf7-486a-a83e-237e0e6bf50c)

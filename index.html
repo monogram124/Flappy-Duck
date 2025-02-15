@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Duck</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body{
+            background-color: #AAE6F2;
+            overflow-x: hidden;
+        }
+        .clouds{
+            position: relative;
+            top: -600px;
+            z-index: -1;
+        }
+        .txt{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -1850px;
+            right: 800px;
+        }
+        .restart{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -1820px;
+            right: 800px;
+        }
+        body{
+            -khtml-user-select: none;
+            -o-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        body{
+            overflow-y: hidden;
+        }
+        .score-up{
+            color: white;
+            position: relative;
+            font-size: 120px;
+            font-family: Flappy Bird;
+            display: flex;
+            justify-content: center;
+            font-weight: 50;
+            z-index: 2;
+            top: 10px;
+        }
+        .score-btm{
+            color: black;
+            position: relative;
+            font-size: 120px;
+            font-family: Flappy Bird;
+            display: flex;
+            justify-content: center;
+            font-weight: 50;
+            z-index: 1;
+            top: -155px;
+            right: 5px;
+        }
+        
+    </style>
+</head>
+<body class="body">
+    
+
+    <div class="img-container">
+        <img style="display: none;" class="hidden img" src="img/player.png">
+        <img style="display: none;" class="hidden img2" src="img/column.png">
+        <img style="display: none;" class="hidden img3" src="img/column2.png">
+        <img style="display: none;" class="hidden img4" src="img/background.png">
+        <img style="display: none;" class="hidden img5" src="img/flower.png">
+        <img style="display: none;" class="hidden img6" src="img/seed.png">
+    </div>
+
+        <h1 class="score-up">0</h1>
+
+        <h1 class="score-btm">0</h1>
+
+    <canvas class="canvas" style="display: block; margin: 0px auto; position: relative; top: -390px;"></canvas>
+    <div class="clouds">
+        <img src="img/coluds.png">
+    </div>
+    <div class="txt">
+        <img src="img/txt.png">
+    </div>
+    <div class="restart">
+        <img src="img/restart.png">
+    </div>
+
+    <script src="main.js"></script>
+
+    <script>
+        require('./render.js');
+    </script>
+
+</body>
+</html>
